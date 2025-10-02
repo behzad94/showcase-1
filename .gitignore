@@ -1,0 +1,17 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Data & logs
+data/
+logs/
+
+# Streamlit & Uvicorn
+.streamlit/
+*.sqlite*
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
