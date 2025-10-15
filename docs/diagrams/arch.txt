@@ -1,0 +1,1 @@
+Corpus -> Ingest -> Chunk -> Embed -> FAISS -> Retriever -> RAG -> Summarizer(Ollama) -> API -> UI
