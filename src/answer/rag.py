@@ -99,7 +99,7 @@ class RagAnswerer:
             # Honest response: no reliable answer found
             return {
                 "text": "I could not find a reliable answer in your documents. Please try a more specific question.",
-                "evidences": evidences,
+                "evidences": [],
                 "needs_clarification": True,
                 "clarify_hint": "Your query does not match any relevant content. Please use more specific keywords.",
                 "citation_audit": citation_audit,
